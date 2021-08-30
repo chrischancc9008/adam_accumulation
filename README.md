@@ -7,6 +7,10 @@ It's proved by empirical results that NLP models will be benefited from large ba
 However, a large batch size will exceed the GPU memory. 
 To solve the issue, gradient is estimated by accumulation a few batches.
 
+# Checking
+
+python optimizer_test.py
+
 # Reference
 
 https://github.com/bojone/bert4keras/blob/master/bert4keras/optimizers.py
