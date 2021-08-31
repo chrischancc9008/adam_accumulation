@@ -1,6 +1,6 @@
 # Introduction
 
-An implementation of Gradient accumulation for Adam optimizer for tensorflow >= 2.5.0.
+A keras version of Gradient accumulation for Adam optimizer for tensorflow >= 2.5.0.
 
 # Purpose 
 
