@@ -1,10 +1,13 @@
 # Introduction
 
-An implementation of Adam accumulation for tensorflow >= 2.5.0.
+An implementation of Gradient accumulation for Adam optimizer for tensorflow >= 2.5.0.
 
-Purpose: 
+# Purpose 
+
 It's proved by empirical results that NLP models will be benefited from large batch size, e.g., Roberta, SimCSE etc.
+
 However, a large batch size will exceed the GPU memory. 
+
 To solve the issue, gradient is estimated by accumulation a few batches.
 
 # Checking
