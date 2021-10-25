@@ -5,10 +5,6 @@ from tensorflow.keras.datasets import mnist
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras import models, layers
 from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.optimizers import Optimizer
-from tensorflow.python.ops import array_ops
-from tensorflow import keras
-import tensorflow.keras.backend as K
 from optimizers import AdamAccumulation
 import pandas as pd
 
